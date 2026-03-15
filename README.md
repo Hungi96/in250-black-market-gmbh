@@ -27,7 +27,8 @@ Im Rahmen dieses Projekts wurden archivierte Dateien analysiert, extrahiert und 
 
 Weiterführende Dokumentationen befinden sich im Ordner **docs**.
 
-- 📄 [Verzeichnisstruktur](docs/01_verzeichnisstruktur.md)
+- [Verzeichnisstruktur](docs/01_verzeichnisstruktur.md)
+- [Branching Strategie](docs/02_branch_strategie.md)
 
 Diese Dokumentation beschreibt die Organisation der wichtigsten Projektordner und deren Inhalte.
 
