@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Black Market Software GmbH</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+      color: #222;
+      text-align: center;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0d1b2a, #1b263b, #415a77);
+      color: white;
+      padding: 50px 20px;
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .hero-image {
+      width: 100%;
+      max-width: 850px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      margin-bottom: 30px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 25px;
+      margin: 20px auto;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+      max-width: 800px;
+    }
+
+    h2 {
+      color: #8b0000;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      list-style-position: inside;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      margin: 10px 0;
+    }
+
+    a {
+      color: #0b57d0;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #8b0000;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background-color: #a30000;
+      text-decoration: none;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      background-color: #1b263b;
+      color: white;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Black Market Software GmbH</h1>
+    <p>
+      Willkommen auf der offiziellen Projektwebsite.
+      Dieses Repository wurde im Rahmen des IN250 Development Environment Praxisauftrags erstellt.
+    </p>
+  </header>
+
+  <main>
+    <img src="../images/logo.png" alt="Black Market Software Projektbild" class="hero-image">
+
+    <section class="card">
+      <h2>Über dieses Projekt</h2>
+      <p>
+        Diese Website präsentiert die Struktur, Dokumentation und Organisation
+        des Repositories der Black Market Software GmbH.
+      </p>
+      <p>
+        Der Fokus liegt auf sauberem Git-Workflow, Dokumentation, Automatisierung
+        und sicherer Softwareentwicklung.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Dokumentation</h2>
+      <ul>
+        <li><a href="01_verzeichnisstruktur.md">Verzeichnisstruktur</a></li>
+        <li><a href="02_branch_strategie.md">Branching Strategie</a></li>
+        <li><a href="merge.md">Merge Konflikt Dokumentation</a></li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Repository</h2>
+      <p>
+        Über den folgenden Button gelangst du direkt zum GitHub Repository.
+      </p>
+      <a class="button" href="https://github.com/Hungi96/in250-black-market-gmbh" target="_blank">
+        Zum GitHub Repository
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    IN250 Development Environment · Praxisauftrag 2026
+  </footer>
+</body>
+</html>
